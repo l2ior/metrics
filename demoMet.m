@@ -38,11 +38,11 @@ xlabel('Frame index'); ylabel('Decision value');
 
 % plot curves
 figure(2); clf; 
-subplot(121); plot(metR.rocx, metR.rocy, 'b', 'linewidth', 2);
+subplot(121); plot(metR.rocx, metR.rocy, 'b', 'linewidth', 5);
 title(sprintf('ROC curve (AUC=%.2f%%)', metR.auc*100)); grid on;
 xlabel('False positive rate'); ylabel('True positive rate');
 
-subplot(122); plot(mete.thresholds, metE.f1EventCurve, 'r', 'linewidth', 2); 
+subplot(122); plot(metE.thresholds, metE.f1EventCurve, 'r', 'linewidth', 5); 
 title(sprintf('F1-event curve (AUC=%.2f%%)', metE.auc*100)); grid on;
 xlabel('Overlap threshold'); ylabel('F1-Event');
-set(gcf,'position',[200,200,1200,500]);
+set(gcf,'position',[120,120,1200,500]);
