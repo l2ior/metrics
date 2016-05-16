@@ -10,28 +10,6 @@ Below is a collection of metrics we applied for report facial action unit (AU) r
 
 ![](teaser/teaser.png)
 
-More info:
-
-- **Links**: [ [paper](http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Ding_Facial_Action_Unit_2013_ICCV_paper.pdf) ]
-- **Contact**:  Please send comments to Wen-Sheng Chu (wschu@cmu.edu)  
-- **Citation**: If you use this code in your paper, please cite either of the following:
-```
-@inproceedings{ding2013facial,
-  title={Facial Action Unit Event Detection by Cascade of Tasks.},
-  author={Ding, X. and Chu, W.-S. and {De la Torre}, F. and Cohn, J. F. and Wang, Q.},
-  booktitle={ICCV},
-  year={2013}
-}
-```
-```
-@article{ding2016cascade,
-  title={Cascade of Tasks for Facial Expression Analysis},
-  author={Ding, X. and Chu, W.-S. and {De la Torre}, Fernando and Cohn, J. F. and Wang, Q.},
-  journal={Image and Vision Computing},
-  year={2016},
-}
-```
-
 Contents
 ========
 
@@ -58,6 +36,29 @@ Given that the ground truth annotation ```label``` and predicted decision value 
 
 The script has been tested on Windows 8, Ubuntu 3.11.0 and Mac X 10.9.4 without problems. 
 Please send your feedbacks to [Wen-Sheng Chu](mailto:wschu@cmu.edu) regarding any issues, bugs and improvements. 
+
+More Info
+=========
+
+- **Links**: [ [paper](http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Ding_Facial_Action_Unit_2013_ICCV_paper.pdf) ]
+- **Contact**:  Please send comments to Wen-Sheng Chu (wschu@cmu.edu)  
+- **Citation**: If you use this code in your paper, please cite either of the following:
+```
+@inproceedings{ding2013facial,
+  title={Facial Action Unit Event Detection by Cascade of Tasks.},
+  author={Ding, X. and Chu, W.-S. and {De la Torre}, F. and Cohn, J. F. and Wang, Q.},
+  booktitle={ICCV},
+  year={2013}
+}
+```
+```
+@article{ding2016cascade,
+  title={Cascade of Tasks for Facial Expression Analysis},
+  author={Ding, X. and Chu, W.-S. and {De la Torre}, Fernando and Cohn, J. F. and Wang, Q.},
+  journal={Image and Vision Computing},
+  year={2016},
+}
+```
 
 License
 =======
